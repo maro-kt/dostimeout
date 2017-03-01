@@ -14,11 +14,9 @@ SetTimeout.exe -time=<Time value(sec)> -cmd=<commands>
 -time : Set timeout(sec) value. (int, default:60) 
 
 ## Example
-`
-SetTimeout.exe -time=90 -cmd="hoge.exe"
-`
+`>SetTimeout.exe -time=90 -cmd="hoge.exe"`
 
 You can use arguments in -cmd.  
-`SetTimeout.exe -time=90 -cmd="hoge.exe /b foo"`
+`>SetTimeout.exe -time=90 -cmd="hoge.exe /b foo"`
 
 
