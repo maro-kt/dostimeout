@@ -4,7 +4,7 @@
 - It is written in Go.  
 
 # Usage
--cmd string
+-cmd string  
         Set command or scripts.  
 -time int  
         Set timeout(sec) value. (default 60)  
