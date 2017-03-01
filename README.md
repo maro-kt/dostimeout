@@ -1,10 +1,15 @@
 # dostimeout
-This is the program that set timeout for external command or script, like unix command "timeout".  　
-This program is written in Go.  
-# Usage
-go run main.go -time=60 -cmd="hello.exe"
+- This is the code that set timeout for external command, execute files or script, like unix command "timeout".
+- Its code is for Windows Platform.
+- It is written in Go.  
 
- - cmd string  
+# Usage
+-cmd string
         Set command or scripts.  
- - time int  
+-time int  
         Set timeout(sec) value. (default 60)  
+
+## example
+`
+go run main.go -time=60 -cmd="hello.exe"
+`
