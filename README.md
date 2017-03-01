@@ -1,6 +1,6 @@
-# dostimeout
+# SetTimeout for Windows DOS Prompt
 - This is the code that set timeout for external command, execute files or script, like unix command "timeout".
-- Its code is for Windows Platform.
+- Its code is for Windows DOS Prompt.
 - It is written in Go.  
 
 # Usage
