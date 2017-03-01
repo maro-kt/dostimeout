@@ -10,8 +10,8 @@ SetTimeout.exe -time=<Time value(sec)> -cmd=<commands>
 `
 
 ## Option
--cmd : Set command or scripts.  (string)
--time : Set timeout(sec) value. (int, default:60) 
+-cmd : Set command or scripts.  (string)  
+-time : Set timeout(sec) value. (int, default:60)  
 
 ## Example
 `>SetTimeout.exe -time=90 -cmd="hoge.exe"`
