@@ -3,7 +3,8 @@ This is the program that set timeout for external command or script, like unix c
 This program is written in Go.
 
 # Usage
-  -cmd string
+
+-- cmd string
         Set command or scripts.
-  -time int
+-- time int
         Set timeout(sec) value. (default 60)
