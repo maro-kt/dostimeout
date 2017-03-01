@@ -4,12 +4,20 @@
 - It is written in Go.  
 
 # Usage
--cmd string  
-        Set command or scripts.  
--time int  
-        Set timeout(sec) value. (default 60)  
+## Command
+`
+SetTimeout -time=< Time value(sec) > -cmd=<commands>
+`
+
+## Option
+-cmd : Set command or scripts.  (string)
+-time : Set timeout(sec) value. (int, default:60)  
 
 ## example
 `
 go run main.go -time=60 -cmd="hello.exe"
+`
+You can execute the external code with argments.
+`
+go run main.go -time=60 -cmd="dir * /b"
 `
