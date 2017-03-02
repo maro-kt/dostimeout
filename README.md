@@ -3,7 +3,7 @@
 - This is the code that set timeout for external command, execute files or script, like unix command "timeout".
 - Its code is for Windows DOS Prompt.
 - It is written in Go.
-- Stdout/Stderr in Japanese, Chinise and Korean is not Supported.
+- Stdout/Stderr in Japanese, Chinese and Korean is not Supported.
 
 ## Usage
 
