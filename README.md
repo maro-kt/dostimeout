@@ -19,8 +19,9 @@
 
 | Option | Type | Description |
 | ---- | ---- | ---- |
-| -cmd | int | Command or scripts path.|
-| -time | string | Timeout value.(unit:second, default:60)  |
+| -time | int | Timeout value.(unit:second, default:60)  |
+| -cmd | string | Command or scripts path.|
+
 
 ### Example
 
